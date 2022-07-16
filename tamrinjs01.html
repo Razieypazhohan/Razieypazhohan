@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tamrinjs01/globaljs01.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="row col-12 container-fluid container-xxl d-flex justify-content-center">
+            <main>
+                <section class="main-card">
+                    <div class="card-content">
+                            <div class="content-left">
+                                <img class="full-Img" src="img/02.jfif" alt="">
+                            </div>
+                            <div class="content-right">
+                                <div class="tag"><h6>LEISURE</h6></div>
+                                <h3>
+                                    Outdoor Experience
+                                </h3>
+                                <p>
+                                    It’s windy. The cool breeze of the lake. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.
+                                </p>
+                                <div class="mini-imgs">
+                                    <img class="mini-img" onclick="changeImg(0)" src="img/02.jfif" alt="">
+                                    <img class="mini-img" onclick="changeImg(1)" src="img/03.jfif" alt="">
+                                    <img class="mini-img" onclick="changeImg(2)" src="img/04.jfif" alt="">
+                                    <img class="mini-img" onclick="changeImg(3)" src="img/4.jpg" alt="">
+                                </div>
+                            </div>  
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+  
+</body>
+<script>
+    let fullImg = document.querySelector(".full-Img");
+    let miniImg = document.querySelectorAll(".mini-img");
+    console.log(fullImg);
+    function changeImg(x){
+        let one = miniImg[x];
+        let imgAttr = one.getAttribute("src");
+        fullImg.setAttribute("src",imgAttr);
+    }
+</script>
+</html>

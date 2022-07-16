@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d1e8ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1e8ee;
+  font-size: 1em;
+  min-height: 640px;
+  position: relative;
+}
+main > section {
+  position: relative;
+  width: 770px;
+  height: 470px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: "neuzeit-grotesk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #303336;
+  background-color: #fff;
+  box-shadow: 0 40px 40px -20px rgba(225, 229, 230, 0.2666666667);
+  display: flex;
+  justify-content: center;
+}
+main > section > div {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main > section > div > div:first-child {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main > section > div > div:first-child > img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+main > section > div > div:last-child {
+  position: relative;
+  width: calc(100% - 300px);
+  height: 100%;
+  padding-left: 35px;
+}
+main > section > div > div:last-child > h3 {
+  margin-top: 20px;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1;
+}
+main > section > div > div > p {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #7B8591;
+}
+main > section > div > div > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 25px;
+  border-radius: 10px;
+  background-color: #005AEE;
+}
+main > section > div > div > div:nth-of-type(1) > h6 {
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main > section > div > div > div:nth-of-type(2) {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  height: 105px;
+}
+main > section > div > div > div:nth-of-type(2) > img {
+  width: 105px;
+  height: 105px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+  transition: 300ms;
+}/*# sourceMappingURL=globaljs01.css.map */

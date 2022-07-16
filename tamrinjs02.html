@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tamrinjs02/globaljs02.css">
+	<title>Document</title>
+</head>
+<style>
+    .modalcontent,
+    #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+        from {
+            transform: scale(0);
+        }
+
+        to {
+            transform: scale(1);
+        }
+    }
+</style>
+<body>  
+
+<img class="myImg" src="img/2.jpg" alt="شیرینی" onclick="image(event)" style="width:50%;max-width:200px" />
+<img class="myImg" src="img/3.jpg" alt="طبیعن وحشی" onclick="image(event)" style="width:50%;max-width:200px" />
+<img class="myImg" src="img/7.jpg" alt="دریاچه" onclick="image(event)" style="width:50%;max-width:200px" />
+<img class="myImg" src="img/5.jpg" alt="برف" onclick="image(event)" style="width:50%;max-width:200px" />
+<div class="modal" id="mymodal">
+<span class="close">X</span>
+<img class="modalcontent" id="img01" alt="">
+<div id="caption"></div>
+</div> 
+</body>
+<script>
+    let modal = document.getElementById('mymodal');
+    let imgmodal = document.getElementById('img01');
+    let captiontext = document.getElementById('caption');
+    function image(event){
+        modal.style.display = 'block';
+        imgmodal.src = event.target.src;
+        captiontext.innerHTML = event.target.alt;
+    }
+    let span = document.getElementsByClassName('close')[0];
+    span.onclick = function(){
+        modal.style.display = 'none'
+    }
+</script>
+</html>
