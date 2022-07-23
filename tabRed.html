@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="tamrin01/global01.css">
+	<title></title>
+</head>
+<body>
+	<section class="section">
+        <h1>onclick js</h1>
+        <nav>
+            <ul>
+                <li onclick="_click(this)">home</li>
+                <li onclick="_click(this)">post</li>
+                <li onclick="_click(this)">service</li>
+                <li onclick="_click(this)">contact us</li>
+            </ul>
+        </nav>
+        <section class="tabs">
+            <div class="tab1-content">
+                <h2>our home page</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. At voluptatum velit, 
+                     voluptas corrupti aut quasi commodi fugit
+                      blanditiis aperiam? Mollitia quo quod repellendus
+                     cupiditate reiciendis impedit accusamus recusandae!
+                </p>
+            </div>
+            <div class="tab2-content">
+                <h2>our post page</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. At voluptatum velit, 
+                     voluptas corrupti aut quasi commodi fugit
+                      blanditiis aperiam? Mollitia quo quod repellendus
+                     cupiditate reiciendis impedit accusamus recusandae!
+                </p>
+            </div>
+            <div class="tab3-content">
+                <h2>our service page</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. At voluptatum velit, 
+                     voluptas corrupti aut quasi commodi fugit
+                      blanditiis aperiam? Mollitia quo quod repellendus
+                     cupiditate reiciendis impedit accusamus recusandae!
+                </p>
+            </div>
+            <div class="tab4-content">
+                <h2>our contact us page</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur
+                     adipisicing elit. At voluptatum velit, 
+                     voluptas corrupti aut quasi commodi fugit
+                      blanditiis aperiam? Mollitia quo quod repellendus
+                     cupiditate reiciendis impedit accusamus recusandae!
+                </p>
+            </div>
+        </section>
+    </section>
+</body>
+<!-- <script>
+
+</script> -->
+ <script> 
+    let _li = document.querySelectorAll('nav>ul>li')
+    for(i=0; i < _li.length; i++){
+       _li[i].setAttribute('data-count', i)
+    }
+
+function _click(x){
+    let mycount = x.getAttribute('data-count')
+    // console.log(mycount)
+    let _p = document.querySelectorAll('.tabs>div')
+        for(i=0; i<_p.length; i++){
+        _p[i].style.display='none'  
+        }
+    for(i=0; i<_p.length; i++){
+    _p[mycount].style.display = 'block'
+    }
+}
+</script> 
+</html>

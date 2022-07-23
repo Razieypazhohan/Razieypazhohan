@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="accordionmenu/globalaccordionmenu.css">
+</head>
+<body>
+    <div class="menu_wrapper">
+        <nav>
+            <div>
+                <ul class="menu">
+                    <li data-number="1"><a href="#">text</a>
+                        <ul>
+                        </ul>
+                    </li>
+                    <li onclick="accordion(this)" data-status="off"  data-number="2"><a href="#">color</a>
+                    <ul>
+                        <li class="button1"><a href="">pazhohan1</a></li>
+                        <li class="button1"><a href="">pazhohan2</a></li>
+                        <li class="button1"><a href="">pazhohan3</a></li>
+                    </ul>
+                    </li>
+                    <li onclick="accordion(this)" data-status="off" data-number="3"><a href="#">border</a>
+                    <ul>
+                        <li class="button1"><a href="">pazhohan1</a></li>
+                        <li class="button1"><a href="">pazhohan2</a></li>
+                        <li class="button1"><a href="">pazhohan3</a></li>
+                    </ul>
+                    </li>
+                    <li data-number="4"><a href="#">position</a>
+                        <ul>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h2>Accordion Tab</h2>
+</body>
+<script>
+function accordion(self){
+    let _ul = self.children
+    let _li =document.querySelectorAll('.menu>li')
+
+    if(self.getAttribute('data-status') == 'off'){
+       
+        self.setAttribute('data-status', 'on')
+        _ul[1].style.visibility='visible'
+        _ul[1].style.opacity='1'
+      
+     }else{
+        self.setAttribute('data-status', 'off')
+         _ul[1].style.visibility='hidden'
+        _ul[1].style.opacity=0
+        } 
+
+        let _myNumber = self.getAttribute('data-number')
+    
+            for(p=1; p<=_li.length; p++){
+                if(p != _myNumber){
+                    document.querySelector('ul>li:nth-of-type('+p+')>ul').style.visibility='hidden'
+                    document.querySelector('ul>li:nth-of-type('+p+')>ul').style.opacity=0
+                }
+            }
+    }
+</script>
+</html>
