@@ -1,0 +1,297 @@
+body {
+  background-image: url("img/sky01.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+main {
+  transform: perspective(800px) rotateX(65deg);
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  transform-style: preserve-3d;
+}
+
+main > * {
+  position: absolute;
+}
+
+.sun {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(-80deg);
+  background-image: url("img/sun02.jfif");
+  background-size: cover;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 60px rgba(255, 198, 75, 0.4);
+}
+
+.mercury {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dotted rgba(181, 179, 179, 0.316);
+  transform-style: preserve-3d;
+}
+.mercury > div {
+  height: 8px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 111px) rotateX(-90deg);
+  transform-origin: 119px 50%;
+  -webkit-animation: mercurysky 4s linear infinite;
+          animation: mercurysky 4s linear infinite;
+  width: 8px;
+  transform-style: preserve-3d;
+}
+.mercury > div > div {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/mercury01.png");
+  background-size: auto 100%;
+  -webkit-animation: mymercury 4s linear infinite;
+          animation: mymercury 4s linear infinite;
+}
+
+@-webkit-keyframes mercurysky {
+  to {
+    transform: translate(-50%, 111px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes mercurysky {
+  to {
+    transform: translate(-50%, 111px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+@-webkit-keyframes mymercury {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+@keyframes mymercury {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+.venus {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px dotted rgba(255, 255, 255, 0.095);
+  transform-style: preserve-3d;
+}
+.venus > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 140px) rotateX(-90deg);
+  transform-origin: 160px 50%;
+  -webkit-animation: venussky 11s linear infinite;
+          animation: venussky 11s linear infinite;
+  transform-style: preserve-3d;
+}
+.venus > div > div {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/venus01.png");
+  background-size: auto 100%;
+  -webkit-animation: myvenus 11s linear infinite;
+          animation: myvenus 11s linear infinite;
+}
+
+@-webkit-keyframes venussky {
+  to {
+    transform: translate(-50%, 140px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes venussky {
+  to {
+    transform: translate(-50%, 140px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+@-webkit-keyframes myvenus {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+@keyframes myvenus {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+.earth {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  border: 1px dotted rgba(180, 179, 179, 0.433);
+}
+.earth > div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 187.5px) rotateX(-90deg);
+  transform-origin: 212.5px 50%;
+  transform-style: preserve-3d;
+  -webkit-animation: earthsky 14s linear infinite;
+          animation: earthsky 14s linear infinite;
+}
+.earth > div > div {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/earth.png");
+  background-size: auto 100%;
+  -webkit-animation: myearth 14s linear infinite;
+          animation: myearth 14s linear infinite;
+}
+
+@-webkit-keyframes earthsky {
+  to {
+    transform: translate(-50%, 187.5px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes earthsky {
+  to {
+    transform: translate(-50%, 187.5px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+@-webkit-keyframes myearth {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+@keyframes myearth {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+.mars {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  border: 1px dotted rgba(180, 179, 179, 0.433);
+}
+.mars > div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 267.5px) rotateX(-90deg);
+  transform-origin: 282.5px 50%;
+  transform-style: preserve-3d;
+  -webkit-animation: marssky 30s linear infinite;
+          animation: marssky 30s linear infinite;
+}
+.mars > div > div {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/mars01.png");
+  background-size: auto 100%;
+  -webkit-animation: mymars 30s linear infinite;
+          animation: mymars 30s linear infinite;
+}
+
+@-webkit-keyframes marssky {
+  to {
+    transform: translate(-50%, 267.5px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes marssky {
+  to {
+    transform: translate(-50%, 267.5px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+@-webkit-keyframes mymars {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+@keyframes mymars {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+.jupiter {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  border: 1px dotted rgba(180, 179, 179, 0.433);
+}
+.jupiter > div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 315px) rotateX(-90deg);
+  transform-origin: 385px 50%;
+  transform-style: preserve-3d;
+  -webkit-animation: jupitersky 260s linear infinite;
+          animation: jupitersky 260s linear infinite;
+}
+.jupiter > div > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url("img/jupiter01.png");
+  background-size: cover;
+  -webkit-animation: myjupiter 260s linear infinite;
+          animation: myjupiter 260s linear infinite;
+}
+
+@-webkit-keyframes jupitersky {
+  to {
+    transform: translate(-50%, 315px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes jupitersky {
+  to {
+    transform: translate(-50%, 315px) rotateX(-90deg) rotateY(360deg);
+  }
+}
+@-webkit-keyframes myjupiter {
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+@keyframes myjupiter {
+  to {
+    transform: rotateY(-360deg);
+  }
+}/*# sourceMappingURL=global.css.map */
