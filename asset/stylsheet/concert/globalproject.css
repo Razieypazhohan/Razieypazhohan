@@ -1,0 +1,406 @@
+.container-fluid,
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.head > div {
+  background-image: url("../../img/razieypazhohan-myproject-img01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.head > div > div > div:first-child > div {
+  padding: 30px 0 0 0;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(1) > p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  letter-spacing: 8.8px;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(1) > p:nth-child(1) {
+  color: #ffffff;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(1) > p:nth-child(2) {
+  color: #67e0e1;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > span {
+  color: #67e0e1;
+  transform: rotate(90deg);
+  font-weight: 900;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > span:hover {
+  color: #ffffff;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div {
+  z-index: 555;
+  height: 100vh;
+  width: 30%;
+  background-color: rgb(25, 25, 25);
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: -30%;
+  transition: 0.4s;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 50px 0;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > span {
+  font-weight: 900;
+  font-size: 26px;
+  color: #898989;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > span:hover {
+  color: #ffffff;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  margin: 0px;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > figure > img {
+  width: 100%;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) {
+  width: 100%;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px 0 0 0px;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > nav {
+  width: 100%;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > nav > ul {
+  width: 100%;
+  padding-left: 0;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > nav > ul > li {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 0;
+  padding-left: 0%;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > nav > ul > li > a {
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
+  transition: 0.4s;
+  width: 100%;
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+  align-self: center;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.head > div > div > div:first-child > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > nav > ul > li > a:hover {
+  color: #67e0e1;
+}
+.head > div > div > div:last-child > div {
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.head > div > div > div:last-child > div > div {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 80px 0 100px 0;
+}
+.head > div > div > div:last-child > div > div:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+.head > div > div > div:last-child > div > div:nth-of-type(1) > h2 {
+  color: #67e0e1;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1;
+}
+.head > div > div > div:last-child > div > div:nth-of-type(2) {
+  margin-top: 0px;
+}
+.head > div > div > div:last-child > div > div:nth-of-type(2) > h2 {
+  color: #ffffff;
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 10.8px;
+  font-weight: 600;
+  line-height: 1;
+  font-style: normal;
+  text-align: center;
+}
+
+.subhead {
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.subhead > div {
+  flex-wrap: wrap;
+  width: 33.33%;
+}
+.subhead > div > figure {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.subhead > div > figure > img {
+  width: 100%;
+}
+.subhead > div > figure > figcaption {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subhead > div > figure > figcaption > p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.subhead > div > figure > figcaption > p:first-child {
+  color: #67e0e1;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+}
+.subhead > div > figure > figcaption > p:nth-of-type(2) {
+  width: 30%;
+  height: 0;
+  border: 0.5px solid rgb(146, 146, 146);
+  margin-top: 40px;
+  text-align: center;
+}
+.subhead > div > figure > figcaption > p:last-child {
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+}
+.subhead > div > figure > figcaption > a {
+  width: 95%;
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 7.2px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+.subhead > div > figure > figcaption > a:hover {
+  color: #67e0e1;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer > section > div {
+  background-color: rgb(16, 16, 16);
+  margin-right: auto;
+  margin-left: auto;
+}
+footer > section > div > div {
+  padding: 87px 0px 0px 0px;
+}
+footer > section > div > div > div {
+  width: 100%;
+  flex-wrap: wrap;
+}
+footer > section > div > div > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer > section > div > div > div > div:nth-of-type(1) {
+  margin: 10px -5px 0px 0px;
+}
+footer > section > div > div > div > div:nth-of-type(1) > h2 {
+  color: #67e0e1;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+footer > section > div > div > div > div:nth-of-type(2) {
+  margin: 18px -10px 0px 0px;
+}
+footer > section > div > div > div > div:nth-of-type(2) > h2 {
+  color: #ffffff;
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 10.7px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+footer > section > div > div > div > div:nth-of-type(3) {
+  margin: 20px 0px 0px 0px;
+  width: 45%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid gray;
+}
+footer > section > div > div > div > div:nth-of-type(4) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer > section > div > div > div > div:nth-of-type(4) > span {
+  width: 6%;
+  border-top: 6px solid #67e0e1;
+  margin-top: -30px;
+}
+footer > section > div > div > div > div:nth-of-type(5) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section {
+  width: 100%;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div {
+  width: 100%;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div > form {
+  width: 50%;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div > form > div {
+  display: flex;
+  width: 100%;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div > form > div > input {
+  padding: 11px 0px 12px 5px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div > form > div > a {
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 10%;
+  border: none;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+  border-bottom: 1px solid white;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(1) > div > div > form > div > a:hover {
+  color: #67e0e1;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(2) > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #67e0e1;
+  box-shadow: 5px 5px #67e0e1;
+  transition: 0.5s;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(2) > div:hover {
+  box-shadow: none;
+  background-color: #67e0e1;
+}
+footer > section > div > div > div > div:nth-of-type(5) > section:nth-of-type(2) > div > span {
+  fill: #ffffff;
+}
+footer > section > div > div > div > div:nth-of-type(6) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+footer > section > div > div > div > div:nth-of-type(6) > p {
+  padding: 5px;
+  color: #ffffff;
+  font-family: "Lato", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}/*# sourceMappingURL=globalproject.css.map */

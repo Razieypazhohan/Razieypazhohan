@@ -1,0 +1,544 @@
+@media screen and (max-width:576px){
+
+}
+@media screen and (min-width:576px){
+    .head{
+        >div{
+            background-image: url('../../img/razieypazhohan-myproject-img01.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            >div{
+              >div{
+                &:first-child{
+                
+                 >div{
+                    padding: 30px 0 0 0;
+                    >div{
+                        &:nth-of-type(1){   
+                            >p{
+                                font-family: "Poppins", Sans-serif;
+                                font-size: 20px;
+                                letter-spacing: 8.8px;
+                                &:nth-child(1){
+                                    color: #ffffff;
+                                }
+                                &:nth-child(2){
+                                    color: #67e0e1;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){
+                            display: flex;
+                            justify-content: flex-end;
+                          
+                            >span{
+                              
+                                color: #67e0e1;
+                                transform: rotate(90deg);
+                                font-weight: 900;
+                               font-size: 30px;
+                               cursor: pointer;
+                               transition: 0.4s;
+                               &:hover{
+                                color: #ffffff;
+                               }
+                            }  
+                            >div{
+                                height: 100vh;
+                                width: 30%;
+                                background-color: rgb(25, 25, 25);
+                                padding: 0;
+                                margin: 0;
+                                position: absolute;
+                                position: fixed;
+                                top: 0;
+                                right: -30%;
+                                transition: 0.4s;
+                                >div{
+                                    width: 100%;
+                                    display: flex;
+                                   justify-content: center;
+                                   &:nth-of-type(1){
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                 
+                                    padding: 10px 0 50px 0;
+                                    >div{
+                                        width: 80%;
+                                        display: flex;
+                                        justify-content: flex-end;
+                                        >span{
+                                            font-weight: 900;
+                                            font-size: 26px;
+                                            color: #898989;
+                                            font-weight: 900;
+                                            cursor: pointer;
+                                            transition: 0.4s;
+                                            &:hover{
+                                                color: #ffffff;
+                                            }
+                                            }
+                                    }
+                                 
+                                   }
+                                    &:nth-of-type(2){
+                                        display: flex;
+                                        justify-content: center;
+                                        // padding: 50px 0 0 60px;
+                                        >div{
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            width: 40%;
+                                          
+                                            margin: 0px;
+                                        
+                                            >figure{
+                                               width: 100%;
+                                               height: 100%;
+                                               display: flex;
+                                               align-items: center;
+                                               >img{
+                                                width: 100%;
+                                             
+                                               }
+                                            }
+                                        }
+                                    }
+                                    &:nth-of-type(3){
+                                
+                                       width: 100%;
+                                        >div{
+                                            width: 100%;
+                                    
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            padding: 50px 0 0 0px;
+                                           >nav{
+                                            width: 100%;
+                                            // padding-left: 100px;
+                                        
+                                            >ul{
+                                                width: 100%;
+                                        
+                                                padding-left: 0;
+                                                >li{
+                                                    width: 100%;
+                                                
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    padding: 10px 0 10px 0;
+                                                   padding-left: 0%;
+                                                    >a{
+                                                    hyphens: manual;   
+                                                    transition: 0.4s;
+                                                    width: 100%;
+                                                    font-family: "Playfair Display", Sans-serif;
+                                                    font-size: 15px;
+                                                    font-weight: 700;
+                                                    text-transform: uppercase;
+                                                    letter-spacing: 11px;
+                                                    align-self: center;
+                                                    text-align: center;
+                                                    color: #ffffff;
+                                                    cursor: pointer;
+                                                    &:hover{
+                                                        color: #67e0e1;
+                                                    }
+                                                    }
+                                                }
+                                            }
+                                           }
+                                        }
+                                        
+                                    }
+                                }
+                            }                 
+                        }
+                    }
+                 }
+                }
+            
+              }
+              
+            }
+        }
+    }
+        
+}
+@media screen and (min-width:768px){
+    .head{
+        >div{
+            background-image: url('../../img/razieypazhohan-myproject-img01.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            >div{
+              >div{
+                &:first-child{
+                
+                 >div{
+                    padding: 30px 0 0 0;
+                    >div{
+                        &:nth-of-type(1){   
+                            >p{
+                                font-family: "Poppins", Sans-serif;
+                                font-size: 20px;
+                                letter-spacing: 8.8px;
+                                &:nth-child(1){
+                                    color: #ffffff;
+                                }
+                                &:nth-child(2){
+                                    color: #67e0e1;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){
+                            display: flex;
+                            justify-content: flex-end;
+                          
+                            >span{
+                              
+                                color: #67e0e1;
+                                transform: rotate(90deg);
+                                font-weight: 900;
+                               font-size: 30px;
+                               cursor: pointer;
+                               transition: 0.4s;
+                               &:hover{
+                                color: #ffffff;
+                               }
+                            }  
+                            >div{
+                                height: 100vh;
+                                width: 30%;
+                                background-color: rgb(25, 25, 25);
+                                padding: 0;
+                                margin: 0;
+                                position: absolute;
+                                position: fixed;
+                                top: 0;
+                                right: -30%;
+                                transition: 0.4s;
+                                >div{
+                                    width: 100%;
+                                    display: flex;
+                                   justify-content: center;
+                                   &:nth-of-type(1){
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                 
+                                    padding: 10px 0 50px 0;
+                                    >div{
+                                        width: 80%;
+                                        display: flex;
+                                        justify-content: flex-end;
+                                        >span{
+                                            font-weight: 900;
+                                            font-size: 26px;
+                                            color: #898989;
+                                            font-weight: 900;
+                                            cursor: pointer;
+                                            transition: 0.4s;
+                                            &:hover{
+                                                color: #ffffff;
+                                            }
+                                            }
+                                    }
+                                 
+                                   }
+                                    &:nth-of-type(2){
+                                        display: flex;
+                                        justify-content: center;
+                                        // padding: 50px 0 0 60px;
+                                        >div{
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            width: 40%;
+                                          
+                                            margin: 0px;
+                                        
+                                            >figure{
+                                               width: 100%;
+                                               height: 100%;
+                                               display: flex;
+                                               align-items: center;
+                                               >img{
+                                                width: 100%;
+                                             
+                                               }
+                                            }
+                                        }
+                                    }
+                                    &:nth-of-type(3){
+                                
+                                       width: 100%;
+                                        >div{
+                                            width: 100%;
+                                    
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            padding: 50px 0 0 0px;
+                                           >nav{
+                                            width: 100%;
+                                            // padding-left: 100px;
+                                        
+                                            >ul{
+                                                width: 100%;
+                                        
+                                                padding-left: 0;
+                                                >li{
+                                                    width: 100%;
+                                                
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    padding: 10px 0 10px 0;
+                                                   padding-left: 0%;
+                                                    >a{
+                                                    hyphens: manual;   
+                                                    transition: 0.4s;
+                                                    width: 100%;
+                                                    font-family: "Playfair Display", Sans-serif;
+                                                    font-size: 20px;
+                                                    font-weight: 700;
+                                                    text-transform: uppercase;
+                                                    letter-spacing: 11px;
+                                                    align-self: center;
+                                                    text-align: center;
+                                                    color: #ffffff;
+                                                    cursor: pointer;
+                                                    &:hover{
+                                                        color: #67e0e1;
+                                                    }
+                                                    }
+                                                }
+                                            }
+                                           }
+                                        }
+                                        
+                                    }
+                                }
+                            }                 
+                        }
+                    }
+                 }
+                }
+            
+              }
+              
+            }
+        }
+    }
+    .subhead{
+      
+        >div{
+        
+            >figure{
+              
+                >img{
+                    width: 100%;
+                }
+             
+            }
+        }
+        
+    }
+}
+@media screen and (min-width:992px){
+
+    }
+   
+    
+
+// End tablet scope....
+
+@media screen and (min-width:1200px){
+    .head{
+        >div{
+            background-image: url('../../img/razieypazhohan-myproject-img01.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            >div{
+              >div{
+                &:first-child{
+                
+                 >div{
+                    padding: 30px 0 0 0;
+                    >div{
+                        &:nth-of-type(1){   
+                            >p{
+                                font-family: "Poppins", Sans-serif;
+                                font-size: 20px;
+                                letter-spacing: 8.8px;
+                                &:nth-child(1){
+                                    color: #ffffff;
+                                }
+                                &:nth-child(2){
+                                    color: #67e0e1;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){
+                            display: flex;
+                            justify-content: flex-end;
+                          
+                            >span{
+                              
+                                color: #67e0e1;
+                                transform: rotate(90deg);
+                                font-weight: 900;
+                               font-size: 30px;
+                               cursor: pointer;
+                               transition: 0.4s;
+                               &:hover{
+                                color: #ffffff;
+                               }
+                            }  
+                            >div{
+                                height: 100vh;
+                                width: 30%;
+                                background-color: rgb(25, 25, 25);
+                                padding: 0;
+                                margin: 0;
+                                position: absolute;
+                                position: fixed;
+                                top: 0;
+                                right: -30%;
+                                transition: 0.4s;
+                                >div{
+                                    width: 100%;
+                                    display: flex;
+                                   justify-content: center;
+                                   &:nth-of-type(1){
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                 
+                                    padding: 10px 0 50px 0;
+                                    >div{
+                                        width: 80%;
+                                        display: flex;
+                                        justify-content: flex-end;
+                                        >span{
+                                            font-weight: 900;
+                                            font-size: 26px;
+                                            color: #898989;
+                                            font-weight: 900;
+                                            cursor: pointer;
+                                            transition: 0.4s;
+                                            &:hover{
+                                                color: #ffffff;
+                                            }
+                                            }
+                                    }
+                                 
+                                   }
+                                    &:nth-of-type(2){
+                                        display: flex;
+                                        justify-content: center;
+                                        // padding: 50px 0 0 60px;
+                                        >div{
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            width: 40%;
+                                          
+                                            margin: 0px;
+                                        
+                                            >figure{
+                                               width: 100%;
+                                               height: 100%;
+                                               display: flex;
+                                               align-items: center;
+                                               >img{
+                                                width: 100%;
+                                             
+                                               }
+                                            }
+                                        }
+                                    }
+                                    &:nth-of-type(3){
+                                
+                                       width: 100%;
+                                        >div{
+                                            width: 100%;
+                                    
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            padding: 50px 0 0 0px;
+                                           >nav{
+                                            width: 100%;
+                                            // padding-left: 100px;
+                                        
+                                            >ul{
+                                                width: 100%;
+                                        
+                                                padding-left: 0;
+                                                >li{
+                                                    width: 100%;
+                                                
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    padding: 10px 0 10px 0;
+                                                   padding-left: 0%;
+                                                    >a{
+                                                    hyphens: manual;   
+                                                    transition: 0.4s;
+                                                    width: 100%;
+                                                    font-family: "Playfair Display", Sans-serif;
+                                                    font-size: 30px;
+                                                    font-weight: 700;
+                                                    text-transform: uppercase;
+                                                    letter-spacing: 11px;
+                                                    align-self: center;
+                                                    text-align: center;
+                                                    color: #ffffff;
+                                                    cursor: pointer;
+                                                    &:hover{
+                                                        color: #67e0e1;
+                                                    }
+                                                    }
+                                                }
+                                            }
+                                           }
+                                        }
+                                        
+                                    }
+                                }
+                            }                 
+                        }
+                    }
+                 }
+                }
+            
+              }
+              
+            }
+        }
+    }
+    .subhead{
+       
+        >div{
+        //    width: 33.33%;
+            >figure{
+              
+                >img{
+                    width: 100%;
+                }
+             
+            }
+        }
+        
+    }
+    }
+
+// End Desktop scope....
+
+@media screen and (min-width:1400px){
+    
+}
